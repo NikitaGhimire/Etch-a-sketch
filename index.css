@@ -1,0 +1,18 @@
+.main-grid{
+  display: flex;
+  flex-wrap: wrap;
+  background-color: beige;
+  gap: 1px;
+  height: 320px;
+  width: 320px;
+  justify-content: center; 
+}
+
+
+.grid-item{
+  background: whitesmoke;
+  border: 1px solid black;
+  width: 16px;
+  height: 16px;
+  margin-left: 1px;
+}
