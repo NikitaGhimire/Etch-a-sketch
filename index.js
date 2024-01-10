@@ -20,7 +20,10 @@ document.addEventListener('DOMContentLoaded', () => {
       gridItem.classList.add('grid-item');
       mainGrid.appendChild(gridItem);
       gridItem.addEventListener('mouseover', ()=>{
-        gridItem.style.backgroundColor = 'blue';
+        const randomRed = Math.floor(Math.random() * 256);
+        const randomGreen = Math.floor(Math.random() * 256);
+        const randomBlue = Math.floor(Math.random() * 256);
+        gridItem.style.backgroundColor = `rgb(${randomRed}, ${randomGreen}, ${randomBlue})`;
       });
       }
   }
